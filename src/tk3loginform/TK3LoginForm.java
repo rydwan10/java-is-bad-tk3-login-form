@@ -44,7 +44,7 @@ public class TK3LoginForm extends JFrame{
         panel.add(user);
         panel.add(passwordLabel);
         panel.add(pass);
-        panel.add(new JLabel()); // placeholder for spacing
+        panel.add(new JLabel());
         panel.add(tampilpass);
         panel.add(masuk);
         panel.add(keluar);
@@ -58,7 +58,6 @@ public class TK3LoginForm extends JFrame{
         });
 
         masuk.addActionListener((ActionEvent e) -> {
-            // Implement login functionality here
             JOptionPane.showMessageDialog(frame, "Halo, " + user.getText() + ". Anda berhasil masuk!");
         });
 
